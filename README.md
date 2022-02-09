@@ -17,7 +17,7 @@ Keep in mind the color for these tracks must be distinct.
 
 It does not take vertical bounds into consideration. 
 
-Tracks with STCA, AIW and other warnings that change the color of velocity header are not counted.
+Tracks with STCA, AIW, and other warnings that change the color of velocity header, are not counted.
 
 Overlapping velocity headers may be counted as one. 
 
