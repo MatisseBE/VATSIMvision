@@ -12,7 +12,7 @@ A screencapture is started that searches for certain colours on your screen. Whe
 There's no use case.
 
 ## Limitations
-A lot. Out of the boxs it only works for the Belux vacc setup: black active background and light blue velocity header. You may set this up on your own using "FindHSVvalues.py". 
+A lot. Out of the box it only works for the Belux vacc setup: black active background and light blue velocity header. You may set this up on your own using "FindHSVvalues.py". 
 Keep in mind the color for these tracks must be distinct.
 
 It does not take vertical bounds into consideration. 
