@@ -70,8 +70,10 @@ with mss.mss() as sct:
                         if dist > 0:
                             planes += 1
                             drawing = cv2.drawContours(drawing , contours, i, (0,255,0), 0)     #bgr - draw countour
-                            drawing = cv2.putText(drawing,str(i), (coor), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0,200,200))
+                            drawing = cv2.putText(drawing,str(planes), (coor), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0,200,200))
                             break
+
+        drawing = cv2.putText(drawing,"Total: %s" % (planes), (100,100), cv2.FONT_HERSHEY_COMPLEX, 1, (0,200,200))
 
 
         print("Planes in the image : ", planes)
